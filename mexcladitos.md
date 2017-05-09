@@ -8,17 +8,17 @@ Carlos Manuel Morales Moreno
 
 
 # gilbertopcz
-
+Gilberto Paz Cruz
 
 # itza-indigo
-
+Itzayana Reyes
 
 # JEduardoGD
-
+JOSE EDUARDO GUTIÉRREZ DELGADO
 
 # vaneEmy
 
 
-#jorge-indigo
-
+# jorge-indigo
+Jorge Eduardo Ramón Cisneros
 
