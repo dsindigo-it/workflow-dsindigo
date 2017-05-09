@@ -25,3 +25,7 @@ Este repo pretende mostrar tres flujos de trabajo:
   - Tiene mi nombre en el title
 - Subir sólo el branch, es decir, sólo manejar en el _remote_ el branch
   - NO mezclar o hacer merge con nada
+
+Pendientes:
+
+- Mezclar branches entre teammates
