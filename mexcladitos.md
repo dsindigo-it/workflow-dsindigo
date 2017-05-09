@@ -2,7 +2,7 @@
 AARONARDO
 
 # charly1988
-
+Carlos Manuel Morales Moreno
 
 # franciscoRuizR
 
@@ -11,7 +11,7 @@ AARONARDO
 Gilberto Paz Cruz
 
 # itza-indigo
-
+Itzayana Reyes
 
 # JEduardoGD
 JOSE EDUARDO GUTIÉRREZ DELGADO
