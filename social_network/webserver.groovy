@@ -1,6 +1,6 @@
-@Grab('org.eclipse.jetty:jetty-server:9.4.5.v20170502')
-@Grab('org.eclipse.jetty:jetty-servlet:9.4.5.v20170502')
-@Grab('javax.servlet:javax.servlet-api:3.1.0')
+@Grab('org.eclipse.jetty.aggregate:jetty-server:8.1.9.v20130131')
+@Grab('org.eclipse.jetty.aggregate:jetty-servlet:8.1.9.v20130131')
+@Grab('javax.servlet:javax.servlet-api:3.0.1')
 import org.eclipse.jetty.server.Server
 import org.eclipse.jetty.servlet.*
 import groovy.servlet.*
