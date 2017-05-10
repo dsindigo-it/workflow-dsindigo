@@ -6,10 +6,9 @@ class Usuario {
   String email
   Date dateCreated
 
-  Usuario(userName, fullName, email, dateCreated){
+  Usuario(userName, fullName, email){
     this.userName = userName
     this.fullName = fullName
     this.email = email
-    this.dateCreated = dateCreated
   }
 }

@@ -8,7 +8,7 @@ def template = engine.createTemplate(source)
 def userService = UserService.instance;
 
 if(params.userName && params.fullName && params.email){
-    def usuario = new Usuario(params.userName, params.fullName, params.email, new Date())
+    def usuario = new Usuario(params.userName, params.fullName, params.email)
     userService.saveUser(usuario)
 }
 
