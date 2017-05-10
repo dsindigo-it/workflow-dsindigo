@@ -11,7 +11,7 @@ import org.h2.server.web.WebServlet
 import com.makingdevs.service.*
 
 import static org.eclipse.jetty.servlet.ServletContextHandler.*
-def server = new Server(1235)
+def server = new Server(1234)
 def context = new ServletContextHandler(server, "/", SESSIONS)
 context.resourceBase = "."
 context.addServlet(WebServlet, "/dbconsole/*")
