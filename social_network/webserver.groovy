@@ -8,7 +8,6 @@ import org.eclipse.jetty.server.Server
 import org.eclipse.jetty.servlet.*
 import groovy.servlet.*
 import org.h2.server.web.WebServlet
-import com.makingdevs.service.*
 
 import static org.eclipse.jetty.servlet.ServletContextHandler.*
 def server = new Server(1234)
@@ -26,14 +25,10 @@ create table if not exists data(id integer primary key, campo varchar(255))
 
 sql.execute("""
 CREATE TABLE IF NOT EXISTS user(
-    id integer primary key,
+    id integer auto_increment primary key,
     name varchar(255) NOT NULL,
     email varchar(50) NOT NULL UNIQUE,
-    username varchar(50) NOT NULL UNIQUE
+    username varchar(50) NOT NULL UNIQUE,
+    created date NOT NULL
 )
 """)
-
-def service = UserService.instance
-service.getUsers()
-
-
