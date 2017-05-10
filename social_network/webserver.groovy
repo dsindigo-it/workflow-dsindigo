@@ -25,10 +25,10 @@ create table if not exists data(id integer primary key, campo varchar(255))
 
 sql.execute("""
 CREATE TABLE IF NOT EXISTS user(
-    id integer primary key,
+    id integer auto_increment primary key,
     name varchar(255) NOT NULL,
     email varchar(50) NOT NULL UNIQUE,
-    username varchar(50) NOT NULL UNIQUE
+    username varchar(50) NOT NULL UNIQUE,
+    created date NOT NULL
 )
 """)
-
