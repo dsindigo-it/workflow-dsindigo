@@ -1,5 +1,9 @@
 package com.makingdevs.service
 
-@Singleton
-class UserService {
+import com.makingdevs.model.Usuario
+import java.util.List
+
+interface UserService {
+    def getUsers()
+    def saveUser(Usuario user)
 }
