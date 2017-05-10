@@ -6,8 +6,6 @@ Este repo pretende mostrar tres flujos de trabajo:
 - Team(2 - 3)
 - Big team (4+)
 
-- Varios ejercicios pendientes
-
 ## Parte 1 - Single branch
 
 - Resolver un problema dado
@@ -28,6 +26,12 @@ Este repo pretende mostrar tres flujos de trabajo:
 - Subir sólo el branch, es decir, sólo manejar en el _remote_ el branch
   - NO mezclar o hacer merge con nada
 
-Pendientes:
 
-- Mezclar branches entre teammates
+## Otros temas
+
+Flujos de trabajo conocidos:
+
+- Centralizado, parecido a SVN o a CVS, en donde ustedes lo que hacen es mandar todo a un repo.
+- Feature branch
+- Gitflow
+- Forking flow
