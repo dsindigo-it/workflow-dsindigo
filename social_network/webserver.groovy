@@ -20,3 +20,12 @@ def sql = groovy.sql.Sql.newInstance("jdbc:h2:social_network","sa","sa","org.h2.
 sql.execute("""
 create table if not exists data(id integer primary key, campo varchar(255))
 """)
+
+sql.execute("""
+CREATE TABLE IF NOT EXISTS user(
+    id integer primary key,
+    name varchar(255) NOT NULL,
+    email varchar(50) NOT NULL UNIQUE,
+    username varchar(50) NOT NULL UNIQUE
+)
+""")
