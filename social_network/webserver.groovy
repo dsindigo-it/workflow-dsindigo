@@ -10,7 +10,7 @@ import groovy.servlet.*
 import org.h2.server.web.WebServlet
 
 import static org.eclipse.jetty.servlet.ServletContextHandler.*
-def server = new Server(1234)
+def server = new Server(1235)
 def context = new ServletContextHandler(server, "/", SESSIONS)
 context.resourceBase = "."
 context.addServlet(WebServlet, "/dbconsole/*")
